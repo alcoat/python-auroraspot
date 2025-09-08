@@ -8,10 +8,12 @@ L'idée est de trouver des endroits
  - sans trop de pollution lumineuse
  - sans ville au nord
  
-On pourra ajouter plus tard des filtres comme 
- - ne pas être dans une forêt
- - être proche d'une route
+On pourra ajouter plus tard:
+ - ne pas être dans une forêt ou au milieu d'un lac
+ - être proche d'une route (accessibilité générale)
  - sans ligne électrique dans le champ de vision
+ - paramètrer l'orientation
+ - utiliser des cartes plus précises (RGE Alti 1m / MNS du Ladar HD)
  - ...
  
 # How to generate
@@ -33,5 +35,4 @@ Save exported file to `data/viirs_2024.tif`
 
 # Example 
 
-![Overview](doc/exemple_gironde.png)
-![Result](extracts/spots.geojson)
+[![Watch the map](doc/exemple_gironde.png)](https://viewscreen.githubusercontent.com/view/geojson?url=https%3a%2f%2fraw.githubusercontent.com%2fnefethael%2fpython-auroraspot%2fmain%2fextracts%2fspots.geojson)
