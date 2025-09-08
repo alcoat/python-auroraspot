@@ -34,3 +34,4 @@ Save exported file to `data/viirs_2024.tif`
 # Example 
 
 ![Overview](doc/exemple_gironde.png)
+![Result](extracts/spots.geojson)

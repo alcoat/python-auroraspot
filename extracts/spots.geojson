@@ -1,0 +1,4561 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "elevation": 190.0,
+        "delta_h": 35.185699462890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 6.474221706390381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.39512542780332394,
+          44.74074716587567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "elevation": 189.24000549316406,
+        "delta_h": 32.79457092285156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 6.474221706390381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4409435409704494,
+          44.74068935107823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "elevation": 188.3000030517578,
+        "delta_h": 31.492507934570312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.461487933128895,
+          44.79655979299179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "elevation": 170.5,
+        "delta_h": 23.925872802734375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.42527787768990444,
+          44.79302233622935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "elevation": 169.10000610351562,
+        "delta_h": 49.797325134277344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.45157415292936626,
+          44.450227312318184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "elevation": 168.07000732421875,
+        "delta_h": 27.374298095703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 1.0268551111221313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09974729687583414,
+          45.278723600494914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "elevation": 166.6999969482422,
+        "delta_h": 37.13172912597656,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.22073822328715012,
+          44.874342399525034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "elevation": 165.24000549316406,
+        "delta_h": 37.432159423828125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4829595754457239,
+          44.458379068097614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "elevation": 164.99000549316406,
+        "delta_h": 19.618331909179688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 6.474221706390381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.41997387876214237,
+          44.7156566578744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "elevation": 164.27000427246094,
+        "delta_h": 46.27619171142578,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.45743975446579743,
+          44.45959462125315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "elevation": 163.35000610351562,
+        "delta_h": 48.287933349609375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4742814436626516,
+          44.46966398055459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "elevation": 162.27999877929688,
+        "delta_h": 46.25482177734375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.45027413473745576,
+          44.50693988430193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "elevation": 159.82000732421875,
+        "delta_h": 19.364898681640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03202228151793541,
+          45.296177840047285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "elevation": 157.89999389648438,
+        "delta_h": 48875.62890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.21208070470630366,
+          44.8892154480497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "elevation": 157.41000366210938,
+        "delta_h": 22.956649780273438,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13177436721105917,
+          45.321814683212324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "elevation": 157.3000030517578,
+        "delta_h": 18.648956298828125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 6.474221706390381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3863359595740777,
+          44.75990722100723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "elevation": 156.6999969482422,
+        "delta_h": 19.168350219726562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44092927633433676,
+          44.80351866105589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "elevation": 154.74000549316406,
+        "delta_h": 48857.69140625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 1.1784383058547974
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11801675366067807,
+          43.99869330002665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "elevation": 154.25,
+        "delta_h": 17.984573364257812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15131496553587714,
+          45.30031403104761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "elevation": 153.8000030517578,
+        "delta_h": 26872.744140625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 1.1784383058547974
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12121391809394118,
+          44.005807636428536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "elevation": 153.36000061035156,
+        "delta_h": 48855.37109375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.277154922485352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12633215052824787,
+          44.150229523936815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "elevation": 149.74000549316406,
+        "delta_h": 16.57952880859375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23302537478946903,
+          45.32208844838728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "elevation": 148.97000122070312,
+        "delta_h": 46423.3671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15967958644550648,
+          45.32959105332255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "elevation": 148.97000122070312,
+        "delta_h": 21.094741821289062,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.46941971416157174,
+          44.550163509375814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "elevation": 148.58999633789062,
+        "delta_h": 32.961326599121094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.4830145835876465
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03517413144832863,
+          45.322984419028266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "elevation": 148.0399932861328,
+        "delta_h": 14668.95703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14388903435540026,
+          45.32710710726381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "elevation": 147.3000030517578,
+        "delta_h": 24.434280395507812,
+        "viirs_local": 0.38256925344467163,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2572848863258022,
+          45.245458450634004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "elevation": 147.25999450683594,
+        "delta_h": 17117.623046875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.24593578903766544,
+          45.32441819340441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "elevation": 145.47000122070312,
+        "delta_h": 46409.13671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.277154922485352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12038462539473446,
+          44.03623009242927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "elevation": 144.58999633789062,
+        "delta_h": 23.307716369628906,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09384448884492572,
+          45.288627104794124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "elevation": 144.00999450683594,
+        "delta_h": 19557.095703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18887468993294565,
+          45.32628451488898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "elevation": 143.8800048828125,
+        "delta_h": 25.819671630859375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3465369125494119,
+          44.45788099531956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "elevation": 142.35000610351562,
+        "delta_h": 27.99309539794922,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.021084120255837713,
+          44.72095597526312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "elevation": 141.91000366210938,
+        "delta_h": 27.272994995117188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 14.820208549499512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.27426114402605206,
+          45.20868889925797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "elevation": 141.60000610351562,
+        "delta_h": 20.573814392089844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4189142984513741,
+          44.552822166873135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "elevation": 141.5500030517578,
+        "delta_h": 22.337059020996094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4455368404629466,
+          44.52124135552579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "elevation": 141.0,
+        "delta_h": 24.12511444091797,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.25168966029007983,
+          44.546308200309106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "elevation": 140.92999267578125,
+        "delta_h": 22.622512817382812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4524433840089645,
+          44.535586993665206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "elevation": 140.22000122070312,
+        "delta_h": 26.796607971191406,
+        "viirs_local": 0.0,
+        "viirs_max_north": 17.061185836791992
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06484057904215401,
+          45.32962356753675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "elevation": 139.83999633789062,
+        "delta_h": 21.428054809570312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4538129556524425,
+          44.547102520262825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "elevation": 139.10000610351562,
+        "delta_h": 22.723480224609375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.36482863422382383,
+          44.551093932788426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "elevation": 138.6699981689453,
+        "delta_h": 18.58245849609375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 14.150964736938477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28855247954940494,
+          45.22944714911977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "elevation": 138.4499969482422,
+        "delta_h": 24.27692413330078,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.369242435442418,
+          44.456398757339294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "elevation": 138.32000732421875,
+        "delta_h": 26.89269256591797,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4047136171592948,
+          44.4986716877483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "elevation": 136.97000122070312,
+        "delta_h": 36635.8828125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.277154922485352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1165747229195606,
+          44.20613055705604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "elevation": 136.89999389648438,
+        "delta_h": 20.32238006591797,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44385734572932606,
+          44.61397588183698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "elevation": 135.41000366210938,
+        "delta_h": 34.861473083496094,
+        "viirs_local": 0.04427744075655937,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.01089637559462946,
+          44.586528459882764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "elevation": 134.69000244140625,
+        "delta_h": 22.844131469726562,
+        "viirs_local": 0.2236626297235489,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23772970133823568,
+          44.548436868840476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "elevation": 134.5500030517578,
+        "delta_h": 17097.865234375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 6.777173042297363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09166563457144011,
+          44.20863684463824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "elevation": 134.5500030517578,
+        "delta_h": 34192.80859375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.364441871643066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0781383168028091,
+          44.20744080999533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "elevation": 133.55999755859375,
+        "delta_h": 30.274147033691406,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.467476844787598
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.19320840875244663,
+          44.525469327351885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "elevation": 133.3300018310547,
+        "delta_h": 23.199607849121094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4059530842198891,
+          44.61556966475231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "elevation": 132.8000030517578,
+        "delta_h": 27.08184051513672,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.31306973131875626,
+          44.447612574777715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "elevation": 132.6699981689453,
+        "delta_h": 18.91236114501953,
+        "viirs_local": 0.0,
+        "viirs_max_north": 0.9474996328353882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07846734348252113,
+          45.191669388252045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "elevation": 132.58999633789062,
+        "delta_h": 20.331832885742188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 15.511558532714844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3660086627994787,
+          44.320612260636906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "elevation": 132.22000122070312,
+        "delta_h": 26.335289001464844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.010266744688555733,
+          45.23616751804576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "elevation": 132.07000732421875,
+        "delta_h": 48852.86328125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08475162904761027,
+          45.33190717697681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "elevation": 132.0,
+        "delta_h": 48852.77734375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09718898875637173,
+          45.331563599874265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "elevation": 131.82000732421875,
+        "delta_h": 22.13573455810547,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.467476844787598
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20551723830424853,
+          44.531186514145915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "elevation": 131.5500030517578,
+        "delta_h": 29.899459838867188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02830238630370711,
+          45.24536674584588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "elevation": 131.10000610351562,
+        "delta_h": 17.36298370361328,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07651384783202173,
+          44.718154334259914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "elevation": 130.1699981689453,
+        "delta_h": 26.42072296142578,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09159239682161861,
+          45.23079234614153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "elevation": 129.27999877929688,
+        "delta_h": 23.152786254882812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2877735741820488,
+          44.483472522078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "elevation": 128.7899932861328,
+        "delta_h": 20.473831176757812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44541459623808377,
+          44.66310209433368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "elevation": 128.7899932861328,
+        "delta_h": 17.28905487060547,
+        "viirs_local": 0.0,
+        "viirs_max_north": 15.511558532714844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3763919836214714,
+          44.32637534442091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "elevation": 128.47999572753906,
+        "delta_h": 17.65203094482422,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.43782936198403927,
+          44.663377013108054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "elevation": 126.9000015258789,
+        "delta_h": 15.239265441894531,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.37631913292251784,
+          44.77813698925756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "elevation": 126.9000015258789,
+        "delta_h": 24.45538330078125,
+        "viirs_local": 0.054885074496269226,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12458681713377401,
+          44.76131444417915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "elevation": 126.73999786376953,
+        "delta_h": 26.741111755371094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19623617477935243,
+          45.29318145451104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "elevation": 126.69000244140625,
+        "delta_h": 19.782394409179688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.48060041885059124,
+          44.56775765905906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "elevation": 126.02999877929688,
+        "delta_h": 21.63416290283203,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1162408918005331,
+          45.18122147197367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "elevation": 125.80000305175781,
+        "delta_h": 23.10266876220703,
+        "viirs_local": 0.0,
+        "viirs_max_north": 2.3555908203125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12999440106566526,
+          45.13128715473067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "elevation": 125.26000213623047,
+        "delta_h": 18.831024169921875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.011135282623739735,
+          44.73577858188435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "elevation": 124.80000305175781,
+        "delta_h": 15.949424743652344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4673860142369794,
+          44.61654423008253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "elevation": 124.7300033569336,
+        "delta_h": 21.9461669921875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.30328933519670087,
+          44.4879064198459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "elevation": 124.69999694824219,
+        "delta_h": 16.24005889892578,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05911493385608513,
+          44.724675583740314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "elevation": 124.69000244140625,
+        "delta_h": 17.195526123046875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3218543009040196,
+          45.27464944247523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "elevation": 124.36000061035156,
+        "delta_h": 18.792465209960938,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.395795498733449,
+          44.623887886301944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "elevation": 124.08000183105469,
+        "delta_h": 16.918350219726562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35122606414150376,
+          45.28548882623058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "elevation": 123.80000305175781,
+        "delta_h": 19.485328674316406,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31889810617251185,
+          45.305379159948245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "elevation": 123.80000305175781,
+        "delta_h": 16.46300506591797,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.007366589251589261,
+          44.759101479111195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "elevation": 123.41999816894531,
+        "delta_h": 18.610519409179688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.563087463378906
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3303136225977257,
+          44.56174915618643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "elevation": 123.2300033569336,
+        "delta_h": 19.10760498046875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35005843713767815,
+          45.25015002149481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "elevation": 123.11000061035156,
+        "delta_h": 35.0078125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11065713109512482,
+          44.59525066037899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "elevation": 122.56999969482422,
+        "delta_h": 20.842361450195312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.47154993604132217,
+          44.57993548385077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "elevation": 122.44999694824219,
+        "delta_h": 22.454345703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4677162622197915,
+          44.637268482715704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "elevation": 122.05999755859375,
+        "delta_h": 29.14850616455078,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11823576241360036,
+          44.595487444262496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "elevation": 121.5,
+        "delta_h": 16.733474731445312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3961273888708325,
+          44.637181816554246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "elevation": 121.38999938964844,
+        "delta_h": 16.808258056640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.34196975327186196,
+          44.50821122247015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "elevation": 120.55000305175781,
+        "delta_h": 22.87987518310547,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.563087463378906
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.34938930594779244,
+          44.56468582389441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "elevation": 120.31999969482422,
+        "delta_h": 48848.96875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.42094875478245497,
+          44.89426309044914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "elevation": 119.5,
+        "delta_h": 19.9119873046875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.617791175842285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.29172585409977575,
+          45.28860846239458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "elevation": 119.30000305175781,
+        "delta_h": 20.846580505371094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.36753880938402234,
+          44.783333651690675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "elevation": 118.80000305175781,
+        "delta_h": 22.01624298095703,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02444764256695311,
+          44.92154211609456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "elevation": 118.63999938964844,
+        "delta_h": 15.84393310546875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31804120720950085,
+          45.24276917175613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "elevation": 118.4000015258789,
+        "delta_h": 22.6080322265625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 15.642302513122559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19950375238711016,
+          44.599920630260456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "elevation": 118.30000305175781,
+        "delta_h": 27.877037048339844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3747217489299942,
+          44.80557399674657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "elevation": 117.6500015258789,
+        "delta_h": 25.62322998046875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.27121455375334985,
+          45.15673452800593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "elevation": 117.5999984741211,
+        "delta_h": 30.299171447753906,
+        "viirs_local": 0.0,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15305263533452276,
+          44.676939021037505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "elevation": 117.30000305175781,
+        "delta_h": 24.412139892578125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1563060963220905,
+          44.59981193374822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "elevation": 117.19000244140625,
+        "delta_h": 19.583663940429688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.617791175842285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2935061836212926,
+          45.30252495610832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "elevation": 117.11000061035156,
+        "delta_h": 18.511825561523438,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04055034135444683,
+          45.13773410546416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "elevation": 116.83999633789062,
+        "delta_h": 21.240768432617188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 1.0268551111221313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12054745539026494,
+          45.302237682697964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "elevation": 116.72000122070312,
+        "delta_h": 17.84546661376953,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.10332914918335069,
+          45.09320581632633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "elevation": 116.45999908447266,
+        "delta_h": 16.354232788085938,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.183338165283203
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09265108245581384,
+          44.60146439188985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "elevation": 116.30000305175781,
+        "delta_h": 48841.08984375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37523430213432685,
+          45.323520789208374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "elevation": 116.27999877929688,
+        "delta_h": 29.60210418701172,
+        "viirs_local": 0.9023191928863525,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0007007482732471529,
+          44.984844316931365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "elevation": 116.26000213623047,
+        "delta_h": 20.773590087890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04745856176514654,
+          44.66985991278994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "elevation": 116.26000213623047,
+        "delta_h": 23.80304718017578,
+        "viirs_local": 0.5329685211181641,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14616887811331827,
+          44.61023703547917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "elevation": 115.9800033569336,
+        "delta_h": 17.698974609375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08921398991346512,
+          45.08945920033139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "elevation": 115.66000366210938,
+        "delta_h": 21.392959594726562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.37385289680347744,
+          44.62787249595466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "elevation": 115.2699966430664,
+        "delta_h": 24.503707885742188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.467476844787598
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17038039466759972,
+          44.52871464377739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "elevation": 115.0,
+        "delta_h": 23.304931640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09969260169354467,
+          44.76854610070815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "elevation": 114.4000015258789,
+        "delta_h": 23.449729919433594,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44485166577686774,
+          44.55725357283273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "elevation": 114.11000061035156,
+        "delta_h": 20.78797149658203,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0179977068162894,
+          44.5884385070349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "elevation": 113.83000183105469,
+        "delta_h": 20.93414306640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12329686042749124,
+          45.088317138992224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "elevation": 113.5999984741211,
+        "delta_h": 16.23944091796875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.13768243159142032,
+          44.863222444215744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "elevation": 113.5999984741211,
+        "delta_h": 17.590240478515625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.15255914012819272,
+          44.86337990498059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "elevation": 113.52999877929688,
+        "delta_h": 16.614974975585938,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.025741706019009228,
+          44.59698054529819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "elevation": 113.4000015258789,
+        "delta_h": 17.96717071533203,
+        "viirs_local": 0.06209839880466461,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.13489032399124665,
+          44.8931064844717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "elevation": 113.26000213623047,
+        "delta_h": 16.511627197265625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07152657834206314,
+          45.07503000239116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "elevation": 113.18000030517578,
+        "delta_h": 19.822959899902344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 0.9474996328353882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0829225437898411,
+          45.20394986644927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "elevation": 112.80999755859375,
+        "delta_h": 48835.72265625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.258265495300293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4884089717515323,
+          44.19381029827678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "elevation": 112.7699966430664,
+        "delta_h": 39068.9296875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.258265495300293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49815042474082205,
+          44.194401002495674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "elevation": 112.30000305175781,
+        "delta_h": 26.311424255371094,
+        "viirs_local": 0.7133792042732239,
+        "viirs_max_north": 9.789944648742676
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18240795158964487,
+          44.60424367549649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "elevation": 112.26000213623047,
+        "delta_h": 23.641868591308594,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20850851692873507,
+          45.26241520579731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "elevation": 112.25,
+        "delta_h": 15.403854370117188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.378388436356773,
+          45.286023137121084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "elevation": 111.54000091552734,
+        "delta_h": 26877.970703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3175562290672242,
+          44.88978669061944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "elevation": 111.31999969482422,
+        "delta_h": 21.835655212402344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05249700757782696,
+          45.14052836320697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "elevation": 111.06999969482422,
+        "delta_h": 48834.640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.258265495300293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5818280496440756,
+          44.19079914388899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "elevation": 110.88999938964844,
+        "delta_h": 18.393661499023438,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04998640916604066,
+          45.07356060023859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "elevation": 110.83000183105469,
+        "delta_h": 15.00396728515625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 17.796409606933594
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.181368737544279,
+          44.50201388015936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "elevation": 110.69999694824219,
+        "delta_h": 43950.9765625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.258265495300293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5677972094464113,
+          44.19170699363873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "elevation": 110.5,
+        "delta_h": 34192.671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.227289199829102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4178713524831972,
+          45.32087424380812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "elevation": 110.12000274658203,
+        "delta_h": 25.116973876953125,
+        "viirs_local": 0.6553902626037598,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.017235160590526936,
+          45.145222350540465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "elevation": 109.72000122070312,
+        "delta_h": 18.899032592773438,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.027898785139277186,
+          45.14821017699963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "elevation": 109.58999633789062,
+        "delta_h": 17.847572326660156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5252304111682823,
+          45.35179313468743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "elevation": 109.2300033569336,
+        "delta_h": 26.439048767089844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3551585057642591,
+          44.47520168958994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "elevation": 109.19999694824219,
+        "delta_h": 19.896728515625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04093266461825899,
+          44.87217224980981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "elevation": 108.88999938964844,
+        "delta_h": 30.765289306640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.100715595534011,
+          45.14831297166615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "elevation": 108.25,
+        "delta_h": 19.027496337890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11856685733839702,
+          45.23995485494634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 141,
+        "elevation": 107.9000015258789,
+        "delta_h": 18.196914672851562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06362677439552798,
+          44.86827013121173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "elevation": 107.19999694824219,
+        "delta_h": 20.149818420410156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.581411361694336
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17106600391781093,
+          44.615606871824156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "elevation": 106.88999938964844,
+        "delta_h": 18.803611755371094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05416310187473528,
+          44.60202131815757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "elevation": 106.80000305175781,
+        "delta_h": 18.09313201904297,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5535787443239413,
+          45.36531834286796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "elevation": 106.80000305175781,
+        "delta_h": 22.167312622070312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5446686080328731,
+          45.335856146182785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "elevation": 106.5999984741211,
+        "delta_h": 31752.591796875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4488722240080001,
+          44.89333165134692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "elevation": 106.0,
+        "delta_h": 19.923500061035156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20287812892350798,
+          44.6926268720267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 148,
+        "elevation": 105.91000366210938,
+        "delta_h": 17.363693237304688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.292717933654785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.40972900186112887,
+          44.567694128626336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 149,
+        "elevation": 105.70999908447266,
+        "delta_h": 20.22027587890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.32544761810608014,
+          45.11029582093937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "elevation": 105.5,
+        "delta_h": 43958.7109375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5141381803224857,
+          45.35326865436067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "elevation": 105.4000015258789,
+        "delta_h": 35.772857666015625,
+        "viirs_local": 0.4722572863101959,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.028886754407891988,
+          44.86285560486212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "elevation": 105.30000305175781,
+        "delta_h": 22.190719604492188,
+        "viirs_local": 0.30540862679481506,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.060615951272256746,
+          44.949953889914624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "elevation": 104.87000274658203,
+        "delta_h": 21.734779357910156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.014087178532095826,
+          45.0768009494891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "elevation": 104.7300033569336,
+        "delta_h": 15.363723754882812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03560556099384996,
+          45.07498085700823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "elevation": 104.51000213623047,
+        "delta_h": 21.083938598632812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.029336438289907805,
+          45.09125767674284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "elevation": 104.5,
+        "delta_h": 15.522819519042969,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5355893295023298,
+          45.35890249667386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "elevation": 104.0999984741211,
+        "delta_h": 30.091964721679688,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08148607133345472,
+          44.93901642272949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "elevation": 103.5999984741211,
+        "delta_h": 19.000885009765625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05953667963745484,
+          44.94288180019149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "elevation": 103.58999633789062,
+        "delta_h": 21.685874938964844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.923055648803711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20559466733914425,
+          45.22284733781889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "elevation": 103.30000305175781,
+        "delta_h": 20.453353881835938,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5555879399778085,
+          45.37674692281922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "elevation": 102.77999877929688,
+        "delta_h": 31773.015625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.26658605511415356,
+          44.888994070056164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "elevation": 102.76000213623047,
+        "delta_h": 15.987564086914062,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06381667436093828,
+          44.604305286407936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "elevation": 102.70999908447266,
+        "delta_h": 32.706077575683594,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.46617632806401144,
+          44.88899858149371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "elevation": 102.58999633789062,
+        "delta_h": 17.93841552734375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6472465997391803,
+          45.399488768508725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "elevation": 102.30000305175781,
+        "delta_h": 16.290367126464844,
+        "viirs_local": 0.6290598511695862,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11340541398222703,
+          44.884844595846175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "elevation": 102.05000305175781,
+        "delta_h": 48839.203125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14530780253825015,
+          44.9686037263476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "elevation": 101.3499984741211,
+        "delta_h": 19.527587890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.262939586023191,
+          45.091416571872166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 168,
+        "elevation": 100.68000030517578,
+        "delta_h": 46400.9453125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32981242661347615,
+          44.89188382039815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 169,
+        "elevation": 100.4000015258789,
+        "delta_h": 15.442329406738281,
+        "viirs_local": 0.0,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13358337846587148,
+          44.684474971377725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "elevation": 100.19999694824219,
+        "delta_h": 22.918800354003906,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13492113783552934,
+          44.94100596772778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 171,
+        "elevation": 100.12000274658203,
+        "delta_h": 15.409950256347656,
+        "viirs_local": 0.0,
+        "viirs_max_north": 7.3637261390686035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4250370769459299,
+          44.62569892249472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 172,
+        "elevation": 99.80000305175781,
+        "delta_h": 48836.06640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 14.174346923828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12675901758367608,
+          45.330329586963195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "elevation": 98.55000305175781,
+        "delta_h": 16.899032592773438,
+        "viirs_local": 0.0,
+        "viirs_max_north": 14.820208549499512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4224329852707322,
+          45.13011605111236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "elevation": 98.48999786376953,
+        "delta_h": 25.013816833496094,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.018411068128737818,
+          44.99198599199938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "elevation": 97.95999908447266,
+        "delta_h": 16.064170837402344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1029169649373816,
+          44.9661557770404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "elevation": 97.80000305175781,
+        "delta_h": 15.981033325195312,
+        "viirs_local": 0.1300005465745926,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05539726036909537,
+          44.60512663064975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 177,
+        "elevation": 97.30000305175781,
+        "delta_h": 48834.16796875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1690459809174708,
+          44.888126531068764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "elevation": 97.0999984741211,
+        "delta_h": 48846.05859375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2358137996042665,
+          44.88980882116075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 179,
+        "elevation": 96.80000305175781,
+        "delta_h": 32.94015884399414,
+        "viirs_local": 0.7137906551361084,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06601381759634296,
+          44.86994519556674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 180,
+        "elevation": 96.58999633789062,
+        "delta_h": 48836.734375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 4.929308891296387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30891891350695017,
+          45.32550197506578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 181,
+        "elevation": 95.30000305175781,
+        "delta_h": 22.968353271484375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.005231602264347475,
+          44.94751715871765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 182,
+        "elevation": 95.19999694824219,
+        "delta_h": 40.35716247558594,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04686082562158212,
+          44.91602749517945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "elevation": 95.08999633789062,
+        "delta_h": 19.383384704589844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19416311590966198,
+          45.12900453250695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 184,
+        "elevation": 94.9000015258789,
+        "delta_h": 48833.85546875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5024316580162481,
+          45.31961038445094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 185,
+        "elevation": 94.79000091552734,
+        "delta_h": 24.575027465820312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.880969524383545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08083738130623627,
+          45.13422108360231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "elevation": 94.69999694824219,
+        "delta_h": 25.20624542236328,
+        "viirs_local": 0.3686729371547699,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06277057295631289,
+          44.80471167600311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "elevation": 94.48999786376953,
+        "delta_h": 48846.8671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.25100324281547354,
+          44.89018591882681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 188,
+        "elevation": 94.19999694824219,
+        "delta_h": 18.937591552734375,
+        "viirs_local": 0.5321435928344727,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07176388725347517,
+          44.807165854112554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 189,
+        "elevation": 93.95999908447266,
+        "delta_h": 15.708938598632812,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.037925313882235294,
+          44.60268047133683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "elevation": 93.7699966430664,
+        "delta_h": 19.943138122558594,
+        "viirs_local": 0.0,
+        "viirs_max_north": 2.8715696334838867
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.045740095811893776,
+          45.167624173783516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "elevation": 92.70999908447266,
+        "delta_h": 18.846885681152344,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.10076236685659984,
+          44.977136550576006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "elevation": 92.29000091552734,
+        "delta_h": 48831.29296875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1447117124959804,
+          44.98030086157989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "elevation": 92.08999633789062,
+        "delta_h": 19.02063751220703,
+        "viirs_local": 0.0015135548310354352,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5959709440984509,
+          45.31889556537297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "elevation": 90.31999969482422,
+        "delta_h": 18.423683166503906,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1263006031867926,
+          45.09353216829348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 195,
+        "elevation": 89.69000244140625,
+        "delta_h": 48832.9140625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5144662444033966,
+          45.36858114307594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 196,
+        "elevation": 89.4000015258789,
+        "delta_h": 19.57477569580078,
+        "viirs_local": 0.3108225166797638,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08914411683898169,
+          44.88732442555581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "elevation": 88.30000305175781,
+        "delta_h": 43955.6796875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3592550266258677,
+          44.892362695733574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 198,
+        "elevation": 87.61000061035156,
+        "delta_h": 18.97162628173828,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3057459673983582,
+          45.12147096011911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "elevation": 87.3499984741211,
+        "delta_h": 15.456031799316406,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.2170467376709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.02725863951028288,
+          44.62202120199433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 200,
+        "elevation": 86.7699966430664,
+        "delta_h": 48836.2890625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 8.219338417053223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3481571561018821,
+          44.89254864657239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 201,
+        "elevation": 86.69999694824219,
+        "delta_h": 20.998451232910156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03821723437526611,
+          44.95363899617485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 202,
+        "elevation": 86.33999633789062,
+        "delta_h": 21.942642211914062,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0954673786296917,
+          45.09957430018794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "elevation": 86.19999694824219,
+        "delta_h": 16.920196533203125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.296989440917969
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07482322630946647,
+          44.95122968880904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 204,
+        "elevation": 85.5999984741211,
+        "delta_h": 15.946098327636719,
+        "viirs_local": 0.6191496849060059,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2874818302536802,
+          44.95169106406186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 205,
+        "elevation": 85.30000305175781,
+        "delta_h": 46382.32421875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.479269027709961
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4306718686381877,
+          44.020632587164926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 206,
+        "elevation": 84.45999908447266,
+        "delta_h": 22.881446838378906,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14560136983046806,
+          45.05784573651475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 207,
+        "elevation": 84.43000030517578,
+        "delta_h": 15.839927673339844,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06921387294492343,
+          44.96144323621337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 208,
+        "elevation": 84.30000305175781,
+        "delta_h": 17.06537628173828,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14077463467853885,
+          44.91443024578782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 209,
+        "elevation": 84.08000183105469,
+        "delta_h": 15.27191162109375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.967315673828125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06593845017125471,
+          44.96946572522367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 210,
+        "elevation": 83.19000244140625,
+        "delta_h": 16.96477508544922,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4934090173625579,
+          45.282713089755696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 211,
+        "elevation": 81.9000015258789,
+        "delta_h": 48829.3671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5149352207452705,
+          45.37600249556451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 212,
+        "elevation": 81.69000244140625,
+        "delta_h": 24.444869995117188,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6832683244655132,
+          45.38794348186206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 213,
+        "elevation": 78.81999969482422,
+        "delta_h": 12207.9013671875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.454763412475586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7476181178060114,
+          44.188637787996335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 214,
+        "elevation": 78.19999694824219,
+        "delta_h": 15.513084411621094,
+        "viirs_local": 0.9440603256225586,
+        "viirs_max_north": 17.838747024536133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16897334646827572,
+          44.8981398947554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 215,
+        "elevation": 78.0999984741211,
+        "delta_h": 33.631587982177734,
+        "viirs_local": 0.5503623485565186,
+        "viirs_max_north": 17.84227752685547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3286559162881414,
+          44.971868131472725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 216,
+        "elevation": 77.9000015258789,
+        "delta_h": 15.401016235351562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18637731528405005,
+          44.73027058653665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 217,
+        "elevation": 76.9000015258789,
+        "delta_h": 15.0963134765625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.866703033447266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12538338233529112,
+          44.91786203520403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 218,
+        "elevation": 76.08999633789062,
+        "delta_h": 25.981151580810547,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.771462440490723
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6945273154435979,
+          45.38892473829001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 219,
+        "elevation": 75.4000015258789,
+        "delta_h": 21.090652465820312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.674913255833677,
+          45.406697291315226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 220,
+        "elevation": 75.0,
+        "delta_h": 24.16189193725586,
+        "viirs_local": 0.17525792121887207,
+        "viirs_max_north": 10.348885536193848
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5410355217664118,
+          45.0829236769441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 221,
+        "elevation": 74.80000305175781,
+        "delta_h": 25.51091766357422,
+        "viirs_local": 0.34223487973213196,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19975605006393204,
+          44.83215420789377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 222,
+        "elevation": 73.87000274658203,
+        "delta_h": 48838.82421875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.267175674438477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.18558862601305842,
+          44.43834988215846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 223,
+        "elevation": 73.77999877929688,
+        "delta_h": 15.173198699951172,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.454763412475586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7425152152281945,
+          44.30595793527925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 224,
+        "elevation": 71.0,
+        "delta_h": 48820.45703125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5169119797150743,
+          45.40726221024815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 225,
+        "elevation": 70.69000244140625,
+        "delta_h": 19.394577026367188,
+        "viirs_local": 0.26625916361808777,
+        "viirs_max_north": 9.021754264831543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5148008125182252,
+          45.120932902919215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 226,
+        "elevation": 70.61000061035156,
+        "delta_h": 23761.736328125,
+        "viirs_local": 0.0,
+        "viirs_max_north": 16.114219665527344
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17239313286115798,
+          44.43823717619817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 227,
+        "elevation": 70.58000183105469,
+        "delta_h": 26.693031311035156,
+        "viirs_local": 0.6115818023681641,
+        "viirs_max_north": 9.403759002685547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.11302780700477388,
+          44.468225386120814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 228,
+        "elevation": 69.80000305175781,
+        "delta_h": 20.245098114013672,
+        "viirs_local": 0.623241662979126,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.29715606641352577,
+          44.9597400964372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "elevation": 69.0,
+        "delta_h": 22.723621368408203,
+        "viirs_local": 0.9077339172363281,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3284804944181855,
+          44.98494034292859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 230,
+        "elevation": 68.2300033569336,
+        "delta_h": 26.799259185791016,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1601270872368594,
+          45.06647345788907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 231,
+        "elevation": 67.0,
+        "delta_h": 25.073593139648438,
+        "viirs_local": 0.45266154408454895,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09988624276429378,
+          45.00145889123878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 232,
+        "elevation": 66.4000015258789,
+        "delta_h": 18.737041473388672,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.771462440490723
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7003270796016243,
+          45.408790352549474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 233,
+        "elevation": 66.01000213623047,
+        "delta_h": 27.968887329101562,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.720234870910645
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1296101279809445,
+          45.23035598748563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 234,
+        "elevation": 66.0,
+        "delta_h": 33.14755630493164,
+        "viirs_local": 0.3372218906879425,
+        "viirs_max_north": 19.950382232666016
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21443602933807054,
+          44.83420766272303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 235,
+        "elevation": 65.58000183105469,
+        "delta_h": 26.649147033691406,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1625888755744558,
+          45.01836923522007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 236,
+        "elevation": 64.12000274658203,
+        "delta_h": 22.687198638916016,
+        "viirs_local": 0.9454298615455627,
+        "viirs_max_north": 17.84227752685547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3928320408945625,
+          44.967675060378994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 237,
+        "elevation": 62.790000915527344,
+        "delta_h": 28.642898559570312,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1543526003757039,
+          45.112898339272135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 238,
+        "elevation": 60.400001525878906,
+        "delta_h": 26.97864532470703,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.178962707519531
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1511428243607973,
+          45.21535614455058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 239,
+        "elevation": 60.310001373291016,
+        "delta_h": 26.79458236694336,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1665614215588846,
+          45.093056867296625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 240,
+        "elevation": 59.70000076293945,
+        "delta_h": 25.34722137451172,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.155047831929985,
+          44.989573834145524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 241,
+        "elevation": 59.20000076293945,
+        "delta_h": 7328.5849609375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.758929252624512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8037388465665884,
+          45.531312328366454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 242,
+        "elevation": 58.65999984741211,
+        "delta_h": 23.207088470458984,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1564423579365883,
+          45.12814847793022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 243,
+        "elevation": 58.290000915527344,
+        "delta_h": 25.527019500732422,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1507760872747987,
+          45.1504501518672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 244,
+        "elevation": 56.220001220703125,
+        "delta_h": 24.936235427856445,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1509933033337085,
+          45.15765531055578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 245,
+        "elevation": 55.959999084472656,
+        "delta_h": 48810.984375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.454763412475586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7640281249458919,
+          44.33698920508523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 246,
+        "elevation": 54.2400016784668,
+        "delta_h": 28.020702362060547,
+        "viirs_local": 0.5354630351066589,
+        "viirs_max_north": 9.021754264831543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5361724077494464,
+          45.03621095529109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 247,
+        "elevation": 53.70000076293945,
+        "delta_h": 21966.896484375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.758929252624512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8521585895293797,
+          45.577443155513116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 248,
+        "elevation": 52.90999984741211,
+        "delta_h": 19.678417205810547,
+        "viirs_local": 0.8846526145935059,
+        "viirs_max_north": 13.255108833312988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.025675318544924604,
+          45.003051559399694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 249,
+        "elevation": 52.70000076293945,
+        "delta_h": 36608.6640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 14.541687965393066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7620103546360165,
+          45.53542290573171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 250,
+        "elevation": 51.970001220703125,
+        "delta_h": 31.48681640625,
+        "viirs_local": 0.0,
+        "viirs_max_north": 2.602079153060913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2070846910264028,
+          45.72432254368687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 251,
+        "elevation": 51.380001068115234,
+        "delta_h": 36610.4375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 11.461583137512207
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8040727972169357,
+          44.40973537453002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 252,
+        "elevation": 51.27000045776367,
+        "delta_h": 22.360824584960938,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.730797290802002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1070908130304231,
+          45.6651191033967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 253,
+        "elevation": 49.68000030517578,
+        "delta_h": 27.673349380493164,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.170095197749486,
+          44.86323552252964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 254,
+        "elevation": 49.59000015258789,
+        "delta_h": 26.457286834716797,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1675701878534914,
+          44.93590949504637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 255,
+        "elevation": 49.02000045776367,
+        "delta_h": 26.08161735534668,
+        "viirs_local": 0.0,
+        "viirs_max_north": 12.494731903076172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1342339412418334,
+          45.013115462878964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 256,
+        "elevation": 48.7400016784668,
+        "delta_h": 29.62204360961914,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.17705773158786,
+          44.88438660002014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 257,
+        "elevation": 48.25,
+        "delta_h": 25.14507484436035,
+        "viirs_local": 0.8983016610145569,
+        "viirs_max_north": 16.321306228637695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11370151199741757,
+          45.01008381198288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 258,
+        "elevation": 47.65999984741211,
+        "delta_h": 21.506847381591797,
+        "viirs_local": 0.8662164211273193,
+        "viirs_max_north": 12.547712326049805
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.169778518425804,
+          44.6500280656693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 259,
+        "elevation": 47.61000061035156,
+        "delta_h": 25.309537887573242,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1683263486099742,
+          44.95887235091466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 260,
+        "elevation": 46.310001373291016,
+        "delta_h": 28.1500186920166,
+        "viirs_local": 0.0,
+        "viirs_max_north": 2.602079153060913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.198412385680862,
+          45.737270800290844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 261,
+        "elevation": 45.790000915527344,
+        "delta_h": 17.677228927612305,
+        "viirs_local": 0.9083024263381958,
+        "viirs_max_north": 9.021754264831543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5119144068208606,
+          45.04463992308333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 262,
+        "elevation": 44.720001220703125,
+        "delta_h": 31.092456817626953,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1904656569938423,
+          44.804990943587164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 263,
+        "elevation": 43.900001525878906,
+        "delta_h": 25.758216857910156,
+        "viirs_local": 0.0,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1994113065251624,
+          44.831474864996224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 264,
+        "elevation": 43.86000061035156,
+        "delta_h": 33.595542907714844,
+        "viirs_local": 0.12515974044799805,
+        "viirs_max_north": 13.700757026672363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2012072983912938,
+          44.73696528264248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 265,
+        "elevation": 43.0,
+        "delta_h": 21965.90234375,
+        "viirs_local": 0.0,
+        "viirs_max_north": 9.231773376464844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5236601500557746,
+          45.45820209111644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 266,
+        "elevation": 41.400001525878906,
+        "delta_h": 21.45624542236328,
+        "viirs_local": 0.0,
+        "viirs_max_north": 5.129609107971191
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1144203680800746,
+          45.68153290216446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 267,
+        "elevation": 40.20000076293945,
+        "delta_h": 48803.29296875,
+        "viirs_local": 0.0,
+        "viirs_max_north": 10.758929252624512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8503240659716224,
+          45.60184783673375
+        ]
+      }
+    }
+  ]
+}
