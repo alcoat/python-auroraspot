@@ -37,3 +37,6 @@ Save exported file to `data/viirs_2024.tif`
 # Example 
 
 [![Watch the map](doc/exemple_gironde.png)](https://viewscreen.githubusercontent.com/view/geojson?url=https%3a%2f%2fraw.githubusercontent.com%2fnefethael%2fpython-auroraspot%2fmain%2fextracts%2fspots.geojson)
+
+KML output can be found HERE: [spots.kml](https://raw.githubusercontent.com/nefethael/python-auroraspot/refs/heads/main/extracts/spots.kml)
+
