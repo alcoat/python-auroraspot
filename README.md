@@ -40,3 +40,8 @@ Save exported file to `data/viirs_2024.tif`
 
 KML output can be found HERE: [spots.kml](https://raw.githubusercontent.com/nefethael/python-auroraspot/refs/heads/main/extracts/spots.kml)
 
+# Debug
+
+Rejected points can be seen directly in debug image
+
+![debug image](extracts/debug.png)
