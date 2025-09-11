@@ -16,14 +16,6 @@ import matplotlib.patches as patches
 # -----------------------
 # Paramètres utilisateur
 # -----------------------
-
-# -----------------------
-# Zone de recherche (centre GPS + demi-côté en m)
-# -----------------------
-center_lat = 44.8378    # ex : Bordeaux
-center_lon = -0.5792
-half_side_m = 50000     # rayon de la zone de recherche (carré en m)
-
 asc_dir = "../data/BDALTI_ASC"                # dossier contenant les .asc IGN
 dem_files = sorted(glob.glob(os.path.join(asc_dir, "*.asc")))
 if not dem_files:
@@ -53,8 +45,6 @@ viirs_radius_m = 250           # ton rayon en m
 # Poids
 win_weight = [3/3, 2/3, 1/3]
 
-
-
 geojson_output = "../extracts/spots.geojson"  # sortie GeoJSON
 kml_output = "../extracts/spots.kml"          # sortie KML
 debug_output = "../extracts/debug.png"        # sortie Debug
@@ -63,62 +53,21 @@ debug_output = "../extracts/debug.png"        # sortie Debug
 # Fonctions utilitaires
 # -----------------------
 
-def asc_bbox(asc_file):
-    """Retourne xmin, ymin, xmax, ymax en Lambert-93 du fichier ASC"""
-    with open(asc_file, 'r', encoding='utf-8', errors='ignore') as f:
-        header = {}
-        for _ in range(6):
-            line = f.readline()
-            if not line:
-                continue
-            parts = line.split()
-            if len(parts) >= 2:
-                header[parts[0].lower()] = float(parts[1])
-    ncols = int(header.get('ncols'))
-    nrows = int(header.get('nrows'))
-    xll = header.get('xllcorner')
-    yll = header.get('yllcorner')
-    cell = header.get('cellsize')
-    xmin = xll
-    ymin = yll
-    xmax = xll + ncols * cell
-    ymax = yll + nrows * cell
-    return xmin, ymin, xmax, ymax
-
-def intersects(b1, b2):
-    """Retourne True si deux bounding boxes s’intersectent"""
-    xmin1, ymin1, xmax1, ymax1 = b1
-    xmin2, ymin2, xmax2, ymax2 = b2
-    return not (xmax1 < xmin2 or xmax2 < xmin1 or ymax1 < ymin2 or ymax2 < ymin1)
-
-def load_and_merge_asc(files, clip_bbox=None):
+def load_and_merge_asc(files):
     """
     Charge et fusionne plusieurs fichiers .asc IGN (BD ALTI).
-    Si clip_bbox est fourni (xmin,ymin,xmax,ymax en L93),
-    clippe la mosaïque à cette zone.
+    Retourne :
+      - mosaic (numpy array 2D)
+      - transform associé (Affine)
+      - CRS Lambert-93
     """
     datasets = [rasterio.open(f) for f in files]
     mosaic, dem_transform = rasterio.merge.merge(datasets)
-    if mosaic.ndim == 3:
+    if mosaic.ndim == 3:  # parfois merge renvoie [1, rows, cols]
         mosaic = mosaic[0]
     dem_crs = rasterio.crs.CRS.from_epsg(2154)  # Lambert-93
     for ds in datasets:
         ds.close()
-
-    if clip_bbox is not None:
-        xmin_zone, ymin_zone, xmax_zone, ymax_zone = clip_bbox
-        inv = ~dem_transform
-        col_min_f, row_max_f = inv * (xmin_zone, ymin_zone)
-        col_max_f, row_min_f = inv * (xmax_zone, ymax_zone)
-        row_min = int(max(0, np.floor(min(row_min_f, row_max_f))))
-        row_max = int(max(0, np.ceil(max(row_min_f, row_max_f))))
-        col_min = int(max(0, np.floor(min(col_min_f, col_max_f))))
-        col_max = int(max(0, np.ceil(max(col_min_f, col_max_f))))
-        mosaic = mosaic[row_min:row_max, col_min:col_max]
-        from rasterio.transform import Affine
-        dem_transform = Affine(dem_transform.a, dem_transform.b, dem_transform.c + col_min * dem_transform.a,
-                               dem_transform.d, dem_transform.e, dem_transform.f + row_min * dem_transform.e)
-
     return mosaic, dem_transform, dem_crs
 
 def resample_viirs_to_dem(viirs_path, ref_shape, ref_transform, ref_crs):
@@ -297,32 +246,12 @@ def add_plot_overlay(ax, r, c, boxes, color):
 
 # Transformer Lambert-93 -> WGS84
 transformer = Transformer.from_crs("EPSG:2154", "EPSG:4326", always_xy=True)
-transformer_to_l93 = Transformer.from_crs("EPSG:4326", "EPSG:2154", always_xy=True)
 
 # -----------------------
 # Pipeline
 # -----------------------
-center_x, center_y = transformer_to_l93.transform(center_lon, center_lat)
-
-# Bbox DEM avec marge DEM
-bbox_dem = (center_x - half_side_m - plain_distance_m,
-            center_y - half_side_m - plain_distance_m,
-            center_x + half_side_m + plain_distance_m,
-            center_y + half_side_m + plain_distance_m)
-
-# Bbox VIIRS avec marge plus large
-bbox_viirs = (center_x - half_side_m - city_distance_m,
-              center_y - half_side_m - city_distance_m,
-              center_x + half_side_m + city_distance_m,
-              center_y + half_side_m + city_distance_m)
-
-asc_all = glob.glob(os.path.join(asc_dir, "*.asc"))
-dem_files = [f for f in asc_all if intersects(asc_bbox(f), bbox_viirs)]
-if not dem_files:
-    raise FileNotFoundError(f"Aucun fichier .asc trouvé dans la zone {bbox_viirs}")
-
 print("Chargement DEM...")
-dem, dem_transform, dem_crs = load_and_merge_asc(dem_files, clip_bbox=bbox_viirs)
+dem, dem_transform, dem_crs = load_and_merge_asc(dem_files)
 rows, cols = dem.shape
 print("DEM chargé :", dem.shape)
 
@@ -343,31 +272,12 @@ half_span1_px, _ = meters_to_pixels(half_span1_m, dem_transform)
 print("Rééchantillonnage VIIRS...")
 viirs = resample_viirs_to_dem(viirs_file, dem.shape, dem_transform, dem_crs)
 
-print("Calcul masque bbox_dem...")
-xmin_dem, ymin_dem, xmax_dem, ymax_dem = bbox_dem
-
-# Convertir bbox_dem en indices ligne/colonne
-inv = ~dem_transform
-col_min_f, row_max_f = inv * (xmin_dem, ymin_dem)
-col_max_f, row_min_f = inv * (xmax_dem, ymax_dem)
-
-row_min = int(max(0, np.floor(min(row_min_f, row_max_f))))
-row_max = int(min(dem.shape[0], np.ceil(max(row_min_f, row_max_f))))
-col_min = int(max(0, np.floor(min(col_min_f, col_max_f))))
-col_max = int(min(dem.shape[1], np.ceil(max(col_min_f, col_max_f))))
-
-# Masque True uniquement dans bbox_dem
-mask = np.zeros_like(dem, dtype=bool)
-mask[row_min:row_max, col_min:col_max] = True
-
-
 print("Détection des pics (peak_local_max)...")
 coordinates = peak_local_max(
     dem,
     min_distance=peak_distance_px,
     threshold_abs=altitude_threshold,
-    exclude_border=False,
-    labels=mask
+    exclude_border=False
 )
 print("Pics bruts:", len(coordinates))
 

@@ -12,6 +12,7 @@ On pourra ajouter plus tard:
  - ne pas être dans une forêt ou au milieu d'un lac
  - être proche d'une route (accessibilité générale)
  - sans ligne électrique dans le champ de vision
+   (cf https://opendata.reseaux-energies.fr/reutilisation/?id=15)
  - paramètrer l'orientation
  - utiliser des cartes plus précises (RGE Alti 1m / MNS du Ladar HD)
  - ...
