@@ -24,11 +24,8 @@ center_lat = 44.8378    # ex : Bordeaux
 center_lon = -0.5792
 half_side_m = 50000     # rayon de la zone de recherche (carré en m)
 
+# Entrées
 asc_dir = "../data/BDALTI_ASC"                # dossier contenant les .asc IGN
-dem_files = sorted(glob.glob(os.path.join(asc_dir, "*.asc")))
-if not dem_files:
-    raise FileNotFoundError(f"Aucun fichier .asc trouvé dans {asc_dir}")
-
 viirs_file = "../data/viirs_2024.tif"         # Carte VIIRS (EPSG:4326)
 
 # Observation (orientation et angle du cône)
@@ -53,8 +50,7 @@ viirs_radius_m = 250           # ton rayon en m
 # Poids
 win_weight = [3/3, 2/3, 1/3]
 
-
-
+# Sorties
 geojson_output = "../extracts/spots.geojson"  # sortie GeoJSON
 kml_output = "../extracts/spots.kml"          # sortie KML
 debug_output = "../extracts/debug.png"        # sortie Debug
