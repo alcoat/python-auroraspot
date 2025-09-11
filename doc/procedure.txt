@@ -1,0 +1,29 @@
+1. Récupérer le code et l'extraire dans un répertoire "toto":
+https://github.com/nefethael/python-auroraspot/archive/refs/heads/main.zip
+
+
+2. Récupérer la carte d'élevation du Tarn 
+https://data.geopf.fr/telechargement/download/BDALTI/BDALTIV2_2-0_25M_ASC_LAMB93-IGN69_D081_2022-07-29/BDALTIV2_2-0_25M_ASC_LAMB93-IGN69_D081_2022-07-29.7z
+Extraire les fichiers ASC de l'archive ici BDALTIV2/1_DONNEES_LIVRAISON_2022-08-00118/BDALTIV2_MNT_25M_ASC_LAMB93_IGN69_D081/ dans "toto/data/BDALTI_ASC"
+
+
+3. Récupérer la carte de pollution du Tarn
+https://www.lightpollutionmap.info/
+Cf https://raw.githubusercontent.com/nefethael/python-auroraspot/refs/heads/main/doc/get_viirs.png
+Copier le fichier viirs_npp_202400.tif généré dans "toto/data/viirs_2024.tif"
+
+4. Ouvrir le script aurora-spot-search.py et ajuster les variables, à minima
+center_lat = 43.8065
+center_lon = 2.1816
+half_side_m = 55000 
+
+
+5. Ouvrir un terminal (git bash par exemple)
+Avoir installé python, et les dépendances du script 
+(pip install rasterio numpy scikit-image geojson pyproj)
+
+6. Lancer le script
+./launch.sh
+
+7. Récupérer les résultats
+Ouvrir le fichier "toto/extracts/spots.kml" dans Google Earth et voilà

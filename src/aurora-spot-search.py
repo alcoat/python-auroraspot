@@ -20,9 +20,12 @@ import matplotlib.patches as patches
 # -----------------------
 # Zone de recherche (centre GPS + demi-côté en m)
 # -----------------------
-center_lat = 44.8378    # ex : Bordeaux
-center_lon = -0.5792
-half_side_m = 50000     # rayon de la zone de recherche (carré en m)
+
+# Bordeaux
+center_lat = 44.8359
+center_lon = -0.5304
+half_width_m  = 50000
+half_height_m = 50000
 
 # Entrées
 asc_dir = "../data/BDALTI_ASC"                # dossier contenant les .asc IGN
@@ -48,7 +51,7 @@ contrast_radius_m = 500        # rayon pour calcul du contraste (m)
 viirs_radius_m = 250           # ton rayon en m
 
 # Poids
-win_weight = [3/3, 2/3, 1/3]
+win_weight = [1.0, 0.666, 0.333]
 
 # Sorties
 geojson_output = "../extracts/spots.geojson"  # sortie GeoJSON
@@ -300,27 +303,31 @@ transformer_to_l93 = Transformer.from_crs("EPSG:4326", "EPSG:2154", always_xy=Tr
 # -----------------------
 center_x, center_y = transformer_to_l93.transform(center_lon, center_lat)
 
-# Bbox DEM avec marge DEM
-bbox_dem = (center_x - half_side_m - plain_distance_m,
-            center_y - half_side_m - plain_distance_m,
-            center_x + half_side_m + plain_distance_m,
-            center_y + half_side_m + plain_distance_m)
+# Bbox DEM avec marge DEM          
+bbox_dem = (center_x - half_width_m - plain_distance_m,
+            center_y - half_height_m - plain_distance_m,
+            center_x + half_width_m + plain_distance_m,
+            center_y + half_height_m + plain_distance_m)            
 
 # Bbox VIIRS avec marge plus large
-bbox_viirs = (center_x - half_side_m - city_distance_m,
-              center_y - half_side_m - city_distance_m,
-              center_x + half_side_m + city_distance_m,
-              center_y + half_side_m + city_distance_m)
+bbox_viirs = (center_x - half_width_m - city_distance_m,
+              center_y - half_height_m - city_distance_m,
+              center_x + half_width_m + city_distance_m,
+              center_y + half_height_m + city_distance_m)              
 
 asc_all = glob.glob(os.path.join(asc_dir, "*.asc"))
 dem_files = [f for f in asc_all if intersects(asc_bbox(f), bbox_viirs)]
 if not dem_files:
     raise FileNotFoundError(f"Aucun fichier .asc trouvé dans la zone {bbox_viirs}")
 
+#
 print("Chargement DEM...")
 dem, dem_transform, dem_crs = load_and_merge_asc(dem_files, clip_bbox=bbox_viirs)
 rows, cols = dem.shape
 print("DEM chargé :", dem.shape)
+
+# convert wrong DEM value to NaN
+dem[dem < -10000] = np.nan
 
 # Conversion mètres → pixels
 plain_distance_px_y, _ = meters_to_pixels(plain_distance_m, dem_transform)
