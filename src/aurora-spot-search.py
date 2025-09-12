@@ -13,6 +13,9 @@ import simplekml
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
+import geopandas as gpd
+from shapely.geometry import Point
+
 # -----------------------
 # Paramètres utilisateur
 # -----------------------
@@ -30,6 +33,12 @@ half_height_m = 50000
 # Entrées
 asc_dir = "../data/BDALTI_ASC"                # dossier contenant les .asc IGN
 viirs_file = "../data/viirs_2024.tif"         # Carte VIIRS (EPSG:4326)
+road_shp = "../data/BDTOPO/TRONCON_DE_ROUTE.shp"     # chemin vers ton shapef
+
+# -----------------------
+# Paramètres accessibilité
+# -----------------------
+max_distance_road_m = 100                     # distance maximale en m
 
 # Observation (orientation et angle du cône)
 observation_angle_deg = 0      # orientation (0=nord, 90=est, 180=sud, etc.) 
@@ -329,6 +338,17 @@ print("DEM chargé :", dem.shape)
 # convert wrong DEM value to NaN
 dem[dem < -10000] = np.nan
 
+print("Chargement des routes...")
+roads = gpd.read_file(road_shp)
+
+# S'assurer que les routes sont en Lambert-93 (EPSG:2154)
+if roads.crs is None or roads.crs.to_epsg() != 2154:
+    roads = roads.to_crs(epsg=2154)
+
+# Un seul gros MultiLineString pour accélérer la distance
+road_union = roads.unary_union
+print("Routes chargées")
+
 # Conversion mètres → pixels
 plain_distance_px_y, _ = meters_to_pixels(plain_distance_m, dem_transform)
 city_distance_px_y, _  = meters_to_pixels(city_distance_m, dem_transform)
@@ -404,6 +424,7 @@ for (r, c) in coordinates:
     if plain_band.size == 0:
         continue    
     plain_max = float(np.nanmedian(plain_band))
+    #plain_max = float(np.nanmax(plain_band))
 
     # Lumière dans le cône approx
     city_band, tboxes = extract_trapezoid_bbox(viirs, r, c,
@@ -416,7 +437,7 @@ for (r, c) in coordinates:
     if city_band.size == 0:
         continue
     viirs_max_city = float(np.nanmax(city_band))
-
+    
     valid_points.append((r, c, viirs_local, viirs_max_city, delta_h, plain_max, cboxes, tboxes))
 
 print("Points retenus avant tri:", len(valid_points))
@@ -448,6 +469,7 @@ for i, (r, c, viirs_local, viirs_max_city, delta_h, plain_max, cboxes, tboxes) i
     lon, lat = transformer.transform(x, y)
 
     elevation = float(dem[r, c])
+    d_route = road_union.distance(Point(x, y))
 
     # Déterminer le groupe selon tes critères
     if delta_h < contrast_threshold:
@@ -458,6 +480,8 @@ for i, (r, c, viirs_local, viirs_max_city, delta_h, plain_max, cboxes, tboxes) i
         group = "rejected_light"
     elif viirs_max_city is not None and viirs_max_city > city_threshold:
         group = "rejected_city"
+    elif d_route > max_distance_road_m:
+        group = "rejected_access"
     else:
         group = "valid"
 
